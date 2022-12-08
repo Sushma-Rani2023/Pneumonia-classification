@@ -14,9 +14,10 @@ We tested on a dataset of:
 over 624 total x-ray images
 234 x-ray images of normal class
 390 x-ray images of pneumonia class
-For more info on the data: https://data.mendeley.com/datasets/rscbjbr9sj/2
+
 
 Images from both the classes
+
 ![normal](https://user-images.githubusercontent.com/86097622/206381026-846a7008-b04b-4f86-a79e-410eb3e74d2b.png)
 
 
