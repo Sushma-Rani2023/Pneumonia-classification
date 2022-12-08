@@ -17,6 +17,11 @@ over 624 total x-ray images
 For more info on the data: https://data.mendeley.com/datasets/rscbjbr9sj/2
 
 Images from both the classes
+![normal](https://user-images.githubusercontent.com/86097622/206381026-846a7008-b04b-4f86-a79e-410eb3e74d2b.png)
+
+
+![pnm](https://user-images.githubusercontent.com/86097622/206381073-e1739dd4-468b-4b5b-a080-ef4e57c7993e.png)
+
 
 
 
@@ -25,11 +30,14 @@ Images from both the classes
 
 Visualizing the data
 
+![index](https://user-images.githubusercontent.com/86097622/206381105-5ea9746f-c81e-47b4-9a5b-a165fcb4d092.png)
 
 
 As you can clearly see the data is imbalanced. Training a model on this imbalanced data would result in naive behaviour where the model would be always favoring the pneumonia class and still produce a decent accuracy but such results would be useless. To avoid this overfitting, we will increase the number of training examples using data augmentation.
 
 Model details
+
+
 Layer (type)	Output Shape	Param
 conv2d-5 (Conv2D)	(150, 150, 32)	320
 max-pooling2d-5 (MaxPooling2	(75, 75, 32)	0
@@ -71,8 +79,13 @@ This interpreter object is then invoked by passing 2 ByteBuffer objects (the inp
 App Permissions
 READ EXTERNAL STORAGE
 Screenshots
-Home Screen
 
 Pneumonia classification
 
+
+![pneumonia](https://user-images.githubusercontent.com/86097622/206381536-c644d293-f950-412f-9e97-31b4ef8922b8.jpg)
+
 Normal classification
+
+![normal](https://user-images.githubusercontent.com/86097622/206381736-88c70ece-7ec0-414e-8562-eca7da96bd55.jpg)
+
